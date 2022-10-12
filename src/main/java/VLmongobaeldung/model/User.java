@@ -1,4 +1,4 @@
-package model;
+package VLmongobaeldung.model;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.annotation.Id;
