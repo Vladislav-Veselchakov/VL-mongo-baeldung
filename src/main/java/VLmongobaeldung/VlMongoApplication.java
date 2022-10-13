@@ -22,10 +22,10 @@ import java.util.Optional;
 
 @SpringBootApplication
 public class VlMongoApplication {
+//		https://www.baeldung.com/spring-data-mongodb-tutorial
 
 	public static void main(String[] args) {
 //		SpringApplication.run(VlMongoApplication.class, args);
-
 
 		ApplicationContext ctx = new AnnotationConfigApplicationContext(MongoConfig.class);
 		MongoTemplate mongoTemplate = (MongoTemplate) ctx.getBean("mongoTemplate");
